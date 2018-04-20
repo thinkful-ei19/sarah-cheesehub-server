@@ -42,7 +42,7 @@ app.use(
   })
 );
 
-app.get('/api/cheeses', (req, res) => {
+app.get('api/cheeses', (req, res) => {
   res.json(cheeses);
 });
 
