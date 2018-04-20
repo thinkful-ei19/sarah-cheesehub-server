@@ -22,6 +22,10 @@ app.use(
   })
 );
 
+app.get('/api/cheeses', (req, res) => {
+  res.json({msg: 'what up girl?'});
+});
+
 function runServer(port = PORT) {
   const server = app
     .listen(port, () => {
